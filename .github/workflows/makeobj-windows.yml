@@ -18,9 +18,8 @@ jobs:
         libs\buildTool\MSBuild\Current\Bin\MSBuild.exe Makeobj-Extended.vcxproj -property:Configuration=Release
 
     - name: zip result
-      run: |
-        Add-Type -AssemblyName System.IO.Compression.FileSystem
-        [System.IO.Compression.ZipFile]::CreateFromDirectory("build\makeobj\Release\Makeobj-Extended.exe", "build\makeobj\Release\makeobj-extended_windows-nightly.zip")
+      run: Compress-Archive build/makeobj/Release/Makeobj-Extended.exe build/makeobj/Release/makeobj-extended_windows-nightly.zip
+      shell: pwsh
 
     - name: Update binaries of Nightly Release
       uses: svenstaro/upload-release-action@v1-release
