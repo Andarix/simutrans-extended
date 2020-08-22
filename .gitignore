@@ -80,6 +80,9 @@ _UpgradeReport_Files*
 Thumbs.db
 ehthumbs.db
 revision.h
+#
+.vs
+packages/
 
 # Folder config file
 Desktop.ini
