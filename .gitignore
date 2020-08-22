@@ -10,7 +10,6 @@
 *.opensdf
 *.tar.gz
 *.log
-simutrans/
 *.out
 *.exe
 *.app
@@ -165,3 +164,4 @@ text/en/Simutrans-Extended.vcxproj.lnk
 text/all-help-file-names
 
 /Simutrans-Ex/nbproject/private/
+/makeobj/packages.config
