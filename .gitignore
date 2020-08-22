@@ -11,13 +11,10 @@
 *.tar.gz
 *.log
 *.out
-*.exe
 *.app
 *.vcxproj.filters
 *.zip*
 *.7z
-*.dll
-*.tar*
 *.gz*
 *.ilk
 *.bz2
@@ -34,7 +31,6 @@ ipch
 /build
 /config.*
 /makeobj/makeobj
-*.exe.*
 /OSX/getversion
 # Windows image file caches
 Thumbs.db
