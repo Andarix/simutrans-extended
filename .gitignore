@@ -28,12 +28,6 @@
 settings-experimental-debug.xml
 settings-extended-debug.xml
 ipch
-<<<<<<< HEAD
-=======
-/Debug
-/Debug-nettool
-/Release
->>>>>>> remotes/origin/master
 /build
 /config.*
 /makeobj/makeobj
@@ -44,6 +38,7 @@ ehthumbs.db
 #
 .vs
 packages/
+ci.yml
 
 # Folder config file
 Desktop.ini
