@@ -28,6 +28,12 @@
 settings-experimental-debug.xml
 settings-extended-debug.xml
 ipch
+<<<<<<< HEAD
+=======
+/Debug
+/Debug-nettool
+/Release
+>>>>>>> remotes/origin/master
 /build
 /config.*
 /makeobj/makeobj
